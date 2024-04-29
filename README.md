@@ -1,2 +1,2 @@
 # README
-gitpages website, theres nothing here bc I'll be deploying from the branches
+gitpages website! just ignore everything here for now
