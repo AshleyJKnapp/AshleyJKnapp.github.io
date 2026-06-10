@@ -1,0 +1,132 @@
+html {
+	cursor: url(https://cur.cursors-4u.net/symbols/sym-6/sym600.cur), auto !important;
+}
+body {
+	background:#050505;
+	/* rgb(34, 33, 44) */
+	/* background:rgb(50, 49, 68); */
+	color: #00FFFF;
+	font-family: 'courier new';
+	/* font-family: 'lucida Sans Unicode'; */
+	margin: 5%;
+	margin-top: 4%;
+
+	/* .footer {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: #1b0f40;
+		border-top: solid 2px rgb(255, 255, 255);
+		color: rgb(200, 200, 200);
+		padding-left: 20px;
+		text-align: left;
+	} */
+
+	/* Page Border */
+	#top, #bottom, #left, #right {
+	background: #140a33;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; border-right: solid 2px rgb(255, 255, 255);}
+		#right { right: 0; border-left: solid 2px rgb(255, 255, 255);}
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; border-bottom: solid 2px rgb(255, 255, 255);}
+		#bottom { bottom: 0; border-top: solid 2px rgb(255, 255, 255);}
+}
+
+/* HyperLink Colors */
+a {
+	/*color: rgb(255, 0, 255);*/
+	color: rgb(115, 192, 255);
+	cursor: url(https://cur.cursors-4u.net/symbols/sym-6/sym599.cur), auto !important;
+}
+a:active {
+	/*color: rgb(255, 0, 0);*/
+	color: rgb(123, 97, 255);
+	cursor: url(https://cur.cursors-4u.net/symbols/sym-6/sym599.cur), auto !important;
+}
+a:visited {
+	/*color:rgb(69, 0, 255);*/
+	color:rgb(222,140,255);
+	cursor: url(https://cur.cursors-4u.net/symbols/sym-6/sym599.cur), auto !important;
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 3.5em;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+h3 {
+	width: 100%;
+	text-align: left;
+	font-size: 2em;
+}
+
+button {
+	background-color: rgba(0, 0, 0, 0);
+	color: rgb(255, 255, 255);
+	font-size: larger;
+	border: none;
+	padding: 10px;
+	cursor: url(https://cur.cursors-4u.net/symbols/sym-6/sym599.cur), auto !important;
+}
+
+
+/* Custom Classes */
+.centered {
+	text-align: center;
+	margin: auto;
+	width: 75%;
+}
+
+.button-section {
+	text-align: center;
+	margin: auto;
+	width: 15%;
+  	border: 4px double rgb(107, 54, 138);
+	/* border-radius: 15px; */
+  	padding: 10px;
+}
+.button-section:hover {
+	text-align: center;
+	margin: auto;
+	width: 15%;
+  	border: 4px dashed rgb(199, 102, 255);
+  	padding: 10px;
+}
+
+.mini-section {
+	/* background:rgb(50, 49, 68); */
+	text-align: center;
+	margin: auto;
+  	/* border: 2px solid rgb(75, 132, 255); */
+	border-top: solid 2px rgb(255, 255, 255);
+	border-bottom: solid 2px rgb(255, 255, 255);
+	padding: 10px;
+}
+
+.centering-grid {
+	display: grid;
+	place-items: center;
+	min-height: 5%;
+}
+
+/* Mobile Device Class Overrides */
+/* @media (max-width: 768px) {
+
+} */
