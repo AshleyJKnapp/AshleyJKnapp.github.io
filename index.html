@@ -20,6 +20,7 @@
                 /* width: fit-content; */
                 display: grid;
                 grid-template-columns: 1fr 1fr;
+                transition: all 0.3s ease;
             }
             .project-description {
                 margin-left: 5%;
@@ -28,6 +29,18 @@
                 width: 100%;
                 height: auto;
                 border-radius: 10px;
+            }
+            @media screen and (max-width: 800px) {
+                .projectLinks {
+                    grid-template-columns: none;
+                    grid-template-rows: 1fr 1fr;
+                }
+                .project-image {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 10px;
+                    grid-row: 2;
+                }
             }
         </style>
 
@@ -42,9 +55,10 @@
         </div>
 
         <div class="mini-section">
-            <a href="index.html"><button class="button-section">Home</button></a>
+            <a href="index.html"><button class="button-section">Projects</button></a>
             <a href="aboutme.html"><button class="button-section">About Me</button></a>
             <a href="resume.html"><button class="button-section">Resume</button></a>
+            <a href="https://github.com/AshleyJKnapp" target="_blank"><button class="button-section">GitHub</button></a>
         </div>
 
         <div class="centering-grid">
@@ -66,7 +80,7 @@
 
                 <div class="projectLinks">
                     <div class="project-description">
-                        <a style="font-size: larger;"href="https://ashleyjknapp.github.io/StoryGraph-Game/"><b>Just a Story on Some Random Spaceship</b></a>
+                        <a style="font-size: larger;"href="https://ashleyjknapp.github.io/CMPM120-StoryGraph-Game/" target="_blank"><b>Just a Story on Some Random Spaceship</b></a>
                         <p>&emsp;- Created using <a href="https://github.com/rndmcnlly/StoryGraphTool">StoryGraphTool</a> framework.</p>
                         <p>&emsp;- Works on mobile.</p>
                         <p>&emsp;- placeholder text from here</p>
@@ -82,7 +96,7 @@
                 
                 <div class="projectLinks">
                     <div class="project-description">
-                        <a style="font-size: larger;"href="https://ashleyjknapp.github.io/CMPM120-1D-SHMUP/"><b>SHMUP</b></a>
+                        <a style="font-size: larger;"href="https://ashleyjknapp.github.io/CMPM120-1D-SHMUP/" target="_blank"><b>SHMUP</b></a>
                         <p>&emsp;- Created using <a href="https://github.com/phaserjs/phaser">Phaser.</a></p>
                     </div>
 
@@ -93,7 +107,7 @@
                 
                 <div class="projectLinks">
                     <div class="project-description">
-                        <a style="font-size: larger;"href="https://ashleyjknapp.github.io/CMPM120-2D-Platformer/"><b>Parallel</b></a>
+                        <a style="font-size: larger;"href="https://ashleyjknapp.github.io/CMPM120-2D-Platformer/" target="_blank"><b>Parallel</b></a>
                         <p>&emsp;- Created using <a href="https://github.com/phaserjs/phaser">Phaser.</a></p>
                     </div>
                     
@@ -104,7 +118,7 @@
                 
                 <div class="projectLinks">
                     <div class="project-description">
-                        <a style="font-size: larger;"href="https://natevalley.github.io/Wisp/"><b>Wisp</b></a>
+                        <a style="font-size: larger;"href="https://natevalley.github.io/Wisp/" target="_blank"><b>Wisp</b></a>
                         <p>&emsp;- Created using <a href="https://github.com/phaserjs/phaser">Phaser.</a></p>
                         <p>&emsp;- Created with <a href="https://github.com/NateValley/Wisp">Nate, using his platformer as a base.</a></p>
                     </div>
@@ -116,7 +130,7 @@
                 
                 <div class="projectLinks">
                     <div class="project-description">
-                        <a style="font-size: larger;"href="https://ashleyjknapp.itch.io/banana-searcher"><b>Banana Searcher</b></a>
+                        <a style="font-size: larger;"href="https://ashleyjknapp.itch.io/banana-searcher" target="_blank"><b>Banana Searcher</b></a>
                         <p>&emsp;- Created using Unity.</a></p>
                         <p>&emsp;- Created with <a href="https://github.com/jchen577/Banana-Searcher">JChen.</a></p>
                     </div>
@@ -131,9 +145,9 @@
         </div>
         
         <!-- Footer -->
-        <div class="footer">
+        <!-- <div class="footer">
             <p>Cursor Credits: <a href="https://www.cursors-4u.com/cursor/2011/01/26/transparent-teal-star.html">Teal Star</a></p>
-        </div>
+        </div> -->
 
     </body>
 </html>
