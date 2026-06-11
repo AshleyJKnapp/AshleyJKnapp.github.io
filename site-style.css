@@ -169,6 +169,26 @@ button {
 
 
 /* Mobile Device Class Overrides */
-/* @media (max-width: 768px) {
-
-} */
+@media (max-width: 768px) {
+	body {
+		/* margin: 2%; */
+		#top, #bottom, #left, #right {
+			background: #140a33;
+			position: fixed;
+			z-index: 5
+		}
+		#left, #right {
+			top: 0; bottom: 0;
+			width: 0px;
+			}
+			#left { left: 0; border-right: none;}
+			#right { right: 0; border-left: none;}
+			
+		#top, #bottom {
+			left: 0; right: 0;
+			height: 0px;
+			}
+			#top { top: 0; border-bottom: none;}
+			#bottom { bottom: 0; border-top: none;}
+	}
+}
