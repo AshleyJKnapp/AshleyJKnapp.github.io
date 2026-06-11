@@ -6,42 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ashley Knapp</title>
         <link rel="stylesheet" href="site-style.css">
+        <link rel="stylesheet" href="project-style.css">
     </head>
     <body>
         <!-- Page Specific CSS-->
         <style>
             /* Classes */
-            .projectLinks{
-                background-color: rgba(35, 23, 54, 0.5);
-                border-radius: 10px;
-                border: solid 2px rgb(77, 80, 110);
-                padding: 2%;
-                margin: .5%;
-                /* width: fit-content; */
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                transition: all 0.3s ease;
-            }
-            .project-description {
-                margin-left: 5%;
-            }
-            .project-image {
-                width: 100%;
-                height: auto;
-                border-radius: 10px;
-            }
-            @media screen and (max-width: 800px) {
-                .projectLinks {
-                    grid-template-columns: none;
-                    grid-template-rows: 1fr 1fr;
-                }
-                .project-image {
-                    width: 100%;
-                    height: auto;
-                    border-radius: 10px;
-                    grid-row: 2;
-                }
-            }
+            
         </style>
 
         <!-- Page Border -->
@@ -55,10 +26,10 @@
         </div>
 
         <div class="mini-section">
-            <a href="index.html"><button class="button-section">Projects</button></a>
-            <a href="aboutme.html"><button class="button-section">About Me</button></a>
-            <a href="resume.html"><button class="button-section">Resume</button></a>
-            <a href="https://github.com/AshleyJKnapp" target="_blank"><button class="button-section">GitHub</button></a>
+            <a href="index.html"><button class="button-nav">Projects</button></a>
+            <a href="aboutme.html"><button class="button-nav">About Me</button></a>
+            <a href="resume.html"><button class="button-nav">Resume</button></a>
+            <a href="https://github.com/AshleyJKnapp" target="_blank"><button class="button-nav">GitHub</button></a>
         </div>
 
         <div class="centering-grid">
@@ -73,12 +44,12 @@
         
         <h2>Projects</h2>
         
-        <br>
+        <!-- <br> -->
             
         <div name="parent-projects-container" class="centering-grid" style="margin-left: 5%; margin-right: 5%;">
             <div style="width: 80vw; max-width: 1200px;">
 
-                <div class="projectLinks">
+                <div class="mainContent projectLinks">
                     <div class="project-description">
                         <a style="font-size: larger;"href="https://ashleyjknapp.github.io/CMPM120-StoryGraph-Game/" target="_blank"><b>Just a Story on Some Random Spaceship</b></a>
                         <p>&emsp;- Created using <a href="https://github.com/rndmcnlly/StoryGraphTool">StoryGraphTool</a> framework.</p>
@@ -94,7 +65,7 @@
                     </div>
                 </div>
                 
-                <div class="projectLinks">
+                <div class="mainContent projectLinks">
                     <div class="project-description">
                         <a style="font-size: larger;"href="https://ashleyjknapp.github.io/CMPM120-1D-SHMUP/" target="_blank"><b>SHMUP</b></a>
                         <p>&emsp;- Created using <a href="https://github.com/phaserjs/phaser">Phaser.</a></p>
@@ -105,7 +76,7 @@
                     </div>
                 </div>
                 
-                <div class="projectLinks">
+                <div class="mainContent projectLinks">
                     <div class="project-description">
                         <a style="font-size: larger;"href="https://ashleyjknapp.github.io/CMPM120-2D-Platformer/" target="_blank"><b>Parallel</b></a>
                         <p>&emsp;- Created using <a href="https://github.com/phaserjs/phaser">Phaser.</a></p>
@@ -116,7 +87,7 @@
                     </div>
                 </div>
                 
-                <div class="projectLinks">
+                <div class="mainContent projectLinks">
                     <div class="project-description">
                         <a style="font-size: larger;"href="https://natevalley.github.io/Wisp/" target="_blank"><b>Wisp</b></a>
                         <p>&emsp;- Created using <a href="https://github.com/phaserjs/phaser">Phaser.</a></p>
@@ -128,7 +99,7 @@
                     </div>
                 </div>
                 
-                <div class="projectLinks">
+                <div class="mainContent projectLinks">
                     <div class="project-description">
                         <a style="font-size: larger;"href="https://ashleyjknapp.itch.io/banana-searcher" target="_blank"><b>Banana Searcher</b></a>
                         <p>&emsp;- Created using Unity.</a></p>
