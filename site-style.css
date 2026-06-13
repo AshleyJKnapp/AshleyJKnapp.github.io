@@ -117,7 +117,7 @@ button {
     /* box-shadow: 0 5px 15px #d4008d50; */
     box-shadow: 0px 0px 5px 4px #d4008d50;
 	/* border: 4px double #ff00ff; */
-	border: 4px dashed #ffd8ff;
+	border: 4px double #ffd8ff;
 	clip-path: none;
 }
 

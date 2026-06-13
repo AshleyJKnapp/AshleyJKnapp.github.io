@@ -9,6 +9,20 @@
         <link rel="stylesheet" href="./resume-style.css">
     </head>
     <body>
+        <!-- Page Specific CSS-->
+        <style>
+            /* Classes */
+			@media screen and (max-width: 768px) {
+                .desktop-pdf-viewer {
+                    display: none;
+                }
+            }
+            @media screen and (min-width: 769px) {
+                .mobile-pdf-img {
+                    display: none;
+                }
+            }
+        </style>
 
         <!-- Page Border -->
         <div id="left"></div>
@@ -25,7 +39,7 @@
         <!-- ----------------------- Nav Btns ----------------------- -->
         <div class="mini-section">
             <a href="../index.html"><button class="button-nav" title="Projects">Projects</button></a>
-            <!-- <a href="../abt-me/index.html"><button class="button-nav" title="About Me">About Me</button></a> -->
+            <a href="../abt-me/index.html"><button class="button-nav" title="About Me">About Me</button></a>
             <a href="./index.html"><button class="button-nav" title="Resume">Resume</button></a>
             <a href="https://github.com/AshleyJKnapp" target="_blank" title="Github (Opens in New Tab)"><button class="button-nav">GitHub</button></a>
         </div>
@@ -36,18 +50,21 @@
 
 		<div class="centering-grid">
             <div class="centering-grid" style="margin: 25px; width: 50vw; max-width: 500px;">
-                <div>
-                    <a href="/assets/other/AshleyJKnapp_Resume.pdf" download="AshleyJKnapp_Resume.pdf"></a>
-						<img src="/assets/images/PDF_Teal.png" alt="Download Resume PDF" class="pdf-icon" style="width: 50px; height: auto;" title="Download Resume PDF">
+                    <a href="../assets/other/AshleyJKnapp_Resume.pdf" download="AshleyJKnapp_Resume.pdf"></a>
+						<img src="../assets/images/PDF_Teal.png" alt="Download Resume PDF" class="pdf-icon" style="width: 50px; height: auto;" title="Download Resume PDF">
+                        <p> Download</p>
 					</a>
-            	</div>
             </div>
         </div>
         
         <!-- ----------------------- PDF Embed ----------------------- -->
         <div name="parent-projects-container" class="centering-grid" style="margin-left: 5%; margin-right: 5%;">
-            <div class="mainContent-static" style="width: fit-content; height: fit-content;">
-				<iframe src="/assets/other/AshleyJKnapp_Resume.pdf" class="pdf-embed"></iframe>
+            <div class="mainContent-static" style="max-width: 1200px; width: 100%; height: fit-content;">
+                <!-- Desktop PDF Embed -->
+                <iframe class="desktop-pdf-viewer" src="../assets/other/AshleyJKnapp_Resume.pdf" width="100%" height="900vh"></iframe>
+                <!-- Mobile Image Embed -->
+                <img class="mobile-pdf-img" src="../assets/images/AshleyJKnapp_Resume-1.png" alt="Resume page 1" style="width: 100%; height: auto;">
+                <img class="mobile-pdf-img" src="../assets/images/AshleyJKnapp_Resume-2.png" alt="Resume page 2" style="width: 100%; height: auto;">
             </div>
         </div>
         
