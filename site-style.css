@@ -1,3 +1,5 @@
+@import url('https://googleapis.com');
+
 html {
 	cursor: url(https://cur.cursors-4u.net/symbols/sym-6/sym600.cur), auto !important;
 }
@@ -6,10 +8,12 @@ body {
 	/* rgb(34, 33, 44) */
 	/* background:rgb(50, 49, 68); */
 	color: #00FFFF;
-	font-family: 'courier new';
+    font-family: 'Comfortaa', "Trebuchet MS", sans-serif;
+	/* font-family: 'courier new'; */
 	/* font-family: 'lucida Sans Unicode'; */
 	margin: 5%;
 	margin-top: 4%;
+	line-height: 1.6;
 
 	/* .footer {
 		position: fixed;
@@ -95,7 +99,7 @@ button {
 
 /* Custom Classes */
 .button-nav {
-	font-family: 'courier new';
+	font-family: 'courier new', 'Trebuchet MS', sans-serif;
 	font-weight: bold;
 	text-align: center;
 	margin: auto;
@@ -159,7 +163,8 @@ button {
 	margin-top: 50vh;
 	margin: .5%;
 	/* width: fit-content; */
-	transition: border 0.3s ease, box-shadow 0.3s ease;
+	/* transition: border 0.3s ease, box-shadow 0.3s ease; */
+	transition: all 0.3s ease;
 }
 .mainContent:hover {
 	border: 4px double #ffb9ff;
