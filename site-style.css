@@ -87,6 +87,14 @@ h3 {
 	font-size: 2em;
 }
 
+.white {
+	color: rgb(255, 255, 255);
+}
+
+.cyan {
+	color: rgb(0, 255, 255);
+}
+
 button {
 	background-color: rgba(0, 0, 0, 0);
 	color: rgb(255, 255, 255);
@@ -170,6 +178,15 @@ button {
 	border: 4px double #ffb9ff;
 	box-shadow: 0px 0px 14px 4px #ff00ff30;
 	transform: scaleX(1.005);
+}
+
+.link-icon {
+	transition: all 0.3s ease;
+}
+
+.link-icon:hover {
+	filter: grayscale(50%) brightness(200%) hue-rotate(120deg) drop-shadow(0px 1px 4px #ff00ff);
+	cursor: url(https://cur.cursors-4u.net/symbols/sym-6/sym599.cur), auto !important;
 }
 
 
