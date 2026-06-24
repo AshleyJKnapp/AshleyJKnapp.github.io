@@ -53,6 +53,7 @@
 .project-image {
 	/* grid-column: 2; */
 	padding: 5%;
+	text-align: center;
 	/* width: 100%; */
 	/* height: auto; */
 	/* border-radius: 10px; */
@@ -69,6 +70,8 @@
 		grid-row: 1;
 		overflow-y: visible;
 		height: auto;
+		-webkit-mask-image: none;
+		mask-image: none;
 	}
 	.large-project-image {
 		/* width: 100%; */
