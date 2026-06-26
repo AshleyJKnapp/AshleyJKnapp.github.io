@@ -22,7 +22,7 @@
 	height: 84vh;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 932px) {
 	.pdf-embed {
 		/* width: 100%; */
 		height: 100vh;

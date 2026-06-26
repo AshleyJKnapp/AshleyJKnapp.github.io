@@ -53,12 +53,13 @@
 .project-image {
 	/* grid-column: 2; */
 	padding: 5%;
+	text-align: center;
 	/* width: 100%; */
 	/* height: auto; */
 	/* border-radius: 10px; */
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 932px) {
 	.projectLinks {
 		grid-template-columns: none;
 		/* grid-template-rows: 1fr 1fr; */
@@ -69,6 +70,8 @@
 		grid-row: 1;
 		overflow-y: visible;
 		height: auto;
+		-webkit-mask-image: none;
+		mask-image: none;
 	}
 	.large-project-image {
 		/* width: 100%; */
