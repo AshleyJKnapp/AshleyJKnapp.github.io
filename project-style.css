@@ -45,6 +45,7 @@
 	/* width: 100%; */
 	/* height: auto; */
 	/* border-radius: 10px; */
+	margin-left: 20px;
 }
 .project-description {
 	/* grid-column: 1; */
@@ -79,6 +80,7 @@
 		/* border-radius: 10px; */
 		grid-row: 2;
 		height: auto;
+		margin-left: 0px;
 	}
 	.project-description {
 		grid-row: 1;
